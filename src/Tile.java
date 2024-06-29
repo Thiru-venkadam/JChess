@@ -1,3 +1,9 @@
+/*
+    ->This class file contains a variable named as "tileCoordinate" which will take the position of the tile in coordinates.
+    ->Also, we have two methods namely isTileOccupied() & getPiece() whose work is to show empty/occupied and return piece object if necessary.
+    ->FYI, a chess board has 64 squares in alternate colors(preferably black and white).
+ */
+
 public abstract class Tile {
     int tileCoordinate;
     Tile(int tileCoordinate){
